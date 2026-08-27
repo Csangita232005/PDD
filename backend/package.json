@@ -1,0 +1,26 @@
+{
+  "name": "sharebite-backend",
+  "version": "1.0.0",
+  "description": "SHAREBITE Node.js Express MongoDB Backend REST API",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "seed": "node seed.js",
+    "restart": "npx kill-port 5000 & node server.js",
+    "kill-port": "npx kill-port 5000"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.4.1",
+    "nodemailer": "^9.0.5",
+    "socket.io": "^4.8.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.2"
+  }
+}

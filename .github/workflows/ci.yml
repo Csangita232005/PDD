@@ -1,0 +1,71 @@
+name: FoodBridge CI/CD Workflow
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+
+jobs:
+  backend-testing:
+    name: Backend API & Database Tests
+    runs-on: ubuntu-latest
+
+    services:
+      mongodb:
+        image: mongo:6.0
+        ports:
+          - 27017:27017
+
+    steps:
+      - name: Checkout Code Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js Environment
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+          cache-dependency-path: backend/package-lock.json
+
+      - name: Install Backend Dependencies
+        run: |
+          cd backend
+          npm ci
+
+      - name: Run Backend Integration & DB Tests
+        env:
+          PORT: 5000
+          MONGODB_URI: mongodb://localhost:27017/foodbridge_test
+          JWT_SECRET: foodbridge_super_secret_jwt_key_2026
+        run: |
+          cd backend
+          node test_all_4_flows.js
+          node test_single_account_multi_role_address.js
+
+  web-testing:
+    name: Web Frontend Build & Lint Check
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Code Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js Environment
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+          cache-dependency-path: web/package-lock.json
+
+      - name: Install Web Dependencies
+        run: |
+          cd web
+          npm ci
+
+      - name: Build Web Application
+        env:
+          CI: false
+        run: |
+          cd web
+          npm run build
