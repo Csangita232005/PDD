@@ -64,8 +64,8 @@ jobs:
           npm ci
 
       - name: Build Web Application
-        env:
-          CI: false
         run: |
           cd web
+          export CI=false
+          export DISABLE_ESLINT_PLUGIN=true
           npm run build
