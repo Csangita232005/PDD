@@ -7,7 +7,7 @@ import NavbarHeader from "../components/NavbarHeader";
 
 function Notifications() {
   const navigate = useNavigate();
-  const { currentUser, role } = useAuth();
+  const { currentUser } = useAuth();
   const { t } = useLanguage();
 
   const [notifications, setNotifications] = useState([]);
@@ -33,6 +33,7 @@ function Notifications() {
   };
 
   useEffect(() => {
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     fetchNotifications();
   }, [currentUser]);
 

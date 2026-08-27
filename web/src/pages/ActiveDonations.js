@@ -33,6 +33,7 @@ function ActiveDonations() {
   };
 
   useEffect(() => {
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     fetchActiveDonations();
 
     const socket = getSocket();

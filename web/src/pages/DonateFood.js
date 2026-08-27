@@ -31,6 +31,7 @@ function DonateFood() {
   const [loading, setLoading] = useState(false);
 
   useEffect(() => {
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     if (currentUser) {
       if (!address) setAddress(currentUser.formattedAddress || currentUser.address || "");
       if (currentUser.latitude) setLatitude(currentUser.latitude);
