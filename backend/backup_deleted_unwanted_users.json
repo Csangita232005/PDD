@@ -1,6 +1,6 @@
 {
-  "exportedAt": "2026-08-26T09:07:31.214Z",
-  "count": 11,
+  "exportedAt": "2026-08-27T08:13:19.278Z",
+  "count": 8,
   "users": [
     {
       "location": {
@@ -10,581 +10,32 @@
           13.0827
         ]
       },
-      "isAdmin": false,
-      "_id": "6a8dc51be7a01e05c1e831bc",
-      "name": "Sangita MultiRole",
-      "email": "single.account.1787675931648@foodbridge.org",
-      "password": "$2a$10$u14po.UG5h7YBNbNnR9ucOJViCzr3RXFEyFHahCATQbkUjZshEwea",
-      "mobile": "9493356712",
-      "role": "DONOR",
-      "setupCompleted": true,
-      "isActive": true,
-      "verifiedStatus": true,
-      "address": "Jubilee Road, Chennai",
-      "donorAddress": "Jubilee Road, Chennai",
-      "ngoAddress": "",
-      "receiverAddress": "",
-      "volunteerAddress": "",
-      "formattedAddress": "Jubilee Road, Chennai",
-      "addressLine": "",
-      "city": "Chennai",
-      "state": "Tamil Nadu",
-      "pinCode": "",
-      "country": "India",
-      "latitude": 13.0827,
-      "longitude": 80.2707,
-      "placeId": "",
-      "donorType": "Individual",
-      "organizationName": "",
-      "contactPersonName": "",
-      "registrationNo": "",
-      "serviceArea": "",
-      "capacity": 100,
-      "householdSize": 1,
-      "receiverType": "",
-      "vehicleType": "",
-      "availability": "Full-time",
-      "locationUpdatedAt": "2026-08-25T16:38:51.728Z",
-      "createdAt": "2026-08-25T16:38:51.729Z",
-      "updatedAt": "2026-08-25T16:38:51.825Z",
-      "__v": 0,
-      "roleProfiles": {
-        "donor": {
-          "address": {
-            "formattedAddress": "",
-            "addressLine": "",
-            "city": "",
-            "state": "",
-            "pinCode": "",
-            "country": "India",
-            "latitude": 17.385,
-            "longitude": 78.4867,
-            "placeId": ""
-          },
-          "donorType": "Individual"
-        },
-        "ngo": {
-          "address": {
-            "formattedAddress": "",
-            "addressLine": "",
-            "city": "",
-            "state": "",
-            "pinCode": "",
-            "country": "India",
-            "latitude": 17.385,
-            "longitude": 78.4867,
-            "placeId": ""
-          },
-          "organizationName": "",
-          "registrationNo": "",
-          "serviceArea": "",
-          "capacity": 100
-        },
-        "beneficiary": {
-          "address": {
-            "formattedAddress": "",
-            "addressLine": "",
-            "city": "",
-            "state": "",
-            "pinCode": "",
-            "country": "India",
-            "latitude": 17.385,
-            "longitude": 78.4867,
-            "placeId": ""
-          },
-          "householdSize": 1,
-          "receiverType": "Individual"
-        },
-        "volunteer": {
-          "address": {
-            "formattedAddress": "",
-            "addressLine": "",
-            "city": "",
-            "state": "",
-            "pinCode": "",
-            "country": "India",
-            "latitude": 17.385,
-            "longitude": 78.4867,
-            "placeId": ""
-          },
-          "vehicleType": "Bike",
-          "availability": "Full-time"
-        }
-      }
-    },
-    {
-      "location": {
-        "type": "Point",
-        "coordinates": [
-          80.2707,
-          13.0827
-        ]
-      },
-      "isAdmin": false,
-      "_id": "6a8dc53de7a01e05c1e831c1",
-      "name": "Sangita MultiRole",
-      "email": "single.account.1787675965872@foodbridge.org",
-      "password": "$2a$10$0.ASucP/6E.EiCLs.tJmG.mZsczErOEPtHYrRBdXaMDA4rLXSxbMy",
-      "mobile": "9493356712",
-      "role": "DONOR",
-      "setupCompleted": true,
-      "isActive": true,
-      "verifiedStatus": true,
-      "address": "Jubilee Road, Chennai",
-      "donorAddress": "Jubilee Road, Chennai",
-      "ngoAddress": "",
-      "receiverAddress": "",
-      "volunteerAddress": "",
-      "formattedAddress": "Jubilee Road, Chennai",
-      "addressLine": "",
-      "city": "Chennai",
-      "state": "Tamil Nadu",
-      "pinCode": "",
-      "country": "India",
-      "latitude": 13.0827,
-      "longitude": 80.2707,
-      "placeId": "",
-      "donorType": "Individual",
-      "organizationName": "",
-      "contactPersonName": "",
-      "registrationNo": "",
-      "serviceArea": "",
-      "capacity": 100,
-      "householdSize": 1,
-      "receiverType": "",
-      "vehicleType": "",
-      "availability": "Full-time",
-      "locationUpdatedAt": "2026-08-25T16:39:25.935Z",
-      "createdAt": "2026-08-25T16:39:25.935Z",
-      "updatedAt": "2026-08-25T16:39:26.030Z",
-      "__v": 0,
-      "roleProfiles": {
-        "donor": {
-          "address": {
-            "formattedAddress": "",
-            "addressLine": "",
-            "city": "",
-            "state": "",
-            "pinCode": "",
-            "country": "India",
-            "latitude": 17.385,
-            "longitude": 78.4867,
-            "placeId": ""
-          },
-          "donorType": "Individual"
-        },
-        "ngo": {
-          "address": {
-            "formattedAddress": "",
-            "addressLine": "",
-            "city": "",
-            "state": "",
-            "pinCode": "",
-            "country": "India",
-            "latitude": 17.385,
-            "longitude": 78.4867,
-            "placeId": ""
-          },
-          "organizationName": "",
-          "registrationNo": "",
-          "serviceArea": "",
-          "capacity": 100
-        },
-        "beneficiary": {
-          "address": {
-            "formattedAddress": "",
-            "addressLine": "",
-            "city": "",
-            "state": "",
-            "pinCode": "",
-            "country": "India",
-            "latitude": 17.385,
-            "longitude": 78.4867,
-            "placeId": ""
-          },
-          "householdSize": 1,
-          "receiverType": "Individual"
-        },
-        "volunteer": {
-          "address": {
-            "formattedAddress": "",
-            "addressLine": "",
-            "city": "",
-            "state": "",
-            "pinCode": "",
-            "country": "India",
-            "latitude": 17.385,
-            "longitude": 78.4867,
-            "placeId": ""
-          },
-          "vehicleType": "Bike",
-          "availability": "Full-time"
-        }
-      }
-    },
-    {
-      "location": {
-        "type": "Point",
-        "coordinates": [
-          80.2707,
-          13.0827
-        ]
-      },
-      "isAdmin": false,
-      "_id": "6a8dc585e7a01e05c1e831c6",
-      "name": "Sangita MultiRole",
-      "email": "single.account.1787676037357@foodbridge.org",
-      "password": "$2a$10$vwpMr2S1.EkpFpj2i30WnOOP/ysJGtlWdTsrqKLhNea323ZV3dBPy",
-      "mobile": "9493356712",
-      "role": "DONOR",
-      "setupCompleted": true,
-      "isActive": true,
-      "verifiedStatus": true,
-      "address": "Jubilee Road, Chennai",
-      "donorAddress": "Jubilee Road, Chennai",
-      "ngoAddress": "",
-      "receiverAddress": "",
-      "volunteerAddress": "",
-      "formattedAddress": "Jubilee Road, Chennai",
-      "addressLine": "",
-      "city": "Chennai",
-      "state": "Tamil Nadu",
-      "pinCode": "",
-      "country": "India",
-      "latitude": 13.0827,
-      "longitude": 80.2707,
-      "placeId": "",
-      "donorType": "Individual",
-      "organizationName": "",
-      "contactPersonName": "",
-      "registrationNo": "",
-      "serviceArea": "",
-      "capacity": 100,
-      "householdSize": 1,
-      "receiverType": "",
-      "vehicleType": "",
-      "availability": "Full-time",
-      "locationUpdatedAt": "2026-08-25T16:40:37.404Z",
-      "createdAt": "2026-08-25T16:40:37.404Z",
-      "updatedAt": "2026-08-25T16:40:37.479Z",
-      "__v": 0,
-      "roleProfiles": {
-        "donor": {
-          "address": {
-            "formattedAddress": "",
-            "addressLine": "",
-            "city": "",
-            "state": "",
-            "pinCode": "",
-            "country": "India",
-            "latitude": 17.385,
-            "longitude": 78.4867,
-            "placeId": ""
-          },
-          "donorType": "Individual"
-        },
-        "ngo": {
-          "address": {
-            "formattedAddress": "",
-            "addressLine": "",
-            "city": "",
-            "state": "",
-            "pinCode": "",
-            "country": "India",
-            "latitude": 17.385,
-            "longitude": 78.4867,
-            "placeId": ""
-          },
-          "organizationName": "",
-          "registrationNo": "",
-          "serviceArea": "",
-          "capacity": 100
-        },
-        "beneficiary": {
-          "address": {
-            "formattedAddress": "",
-            "addressLine": "",
-            "city": "",
-            "state": "",
-            "pinCode": "",
-            "country": "India",
-            "latitude": 17.385,
-            "longitude": 78.4867,
-            "placeId": ""
-          },
-          "householdSize": 1,
-          "receiverType": "Individual"
-        },
-        "volunteer": {
-          "address": {
-            "formattedAddress": "",
-            "addressLine": "",
-            "city": "",
-            "state": "",
-            "pinCode": "",
-            "country": "India",
-            "latitude": 17.385,
-            "longitude": 78.4867,
-            "placeId": ""
-          },
-          "vehicleType": "Bike",
-          "availability": "Full-time"
-        }
-      }
-    },
-    {
-      "location": {
-        "type": "Point",
-        "coordinates": [
-          78.4867,
-          17.385
-        ]
-      },
-      "isAdmin": false,
-      "_id": "6a8dc5c180b1ff3aebf6c39a",
-      "name": "Sangita MultiRole",
-      "email": "single.account.1787676097913@foodbridge.org",
-      "password": "$2a$10$zlQcJ66mWCq5mTtt/6r0ru8G/ALO3JyRfPyNthQ.1vdTtAqASQpbS",
-      "mobile": "9493356712",
-      "role": "DONOR",
-      "setupCompleted": true,
-      "isActive": true,
-      "verifiedStatus": true,
-      "address": "",
-      "donorAddress": "Gandhipuram, Coimbatore",
-      "ngoAddress": "Banjara Hills, Hyderabad",
-      "receiverAddress": "Benz Circle, Vijayawada",
-      "volunteerAddress": "MG Road, Bengaluru",
-      "formattedAddress": "",
-      "addressLine": "",
-      "city": "",
-      "state": "",
-      "pinCode": "",
-      "country": "India",
-      "latitude": 17.385,
-      "longitude": 78.4867,
-      "placeId": "",
-      "donorType": "Individual",
-      "organizationName": "",
-      "contactPersonName": "",
-      "registrationNo": "",
-      "serviceArea": "",
-      "capacity": 100,
-      "householdSize": 1,
-      "receiverType": "",
-      "vehicleType": "",
-      "availability": "Full-time",
-      "roleProfiles": {
-        "donor": {
-          "address": {
-            "formattedAddress": "Gandhipuram, Coimbatore",
-            "addressLine": "Gandhipuram, Coimbatore",
-            "city": "Coimbatore",
-            "state": "Tamil Nadu",
-            "pinCode": "",
-            "country": "India",
-            "latitude": 11.0168,
-            "longitude": 76.9558,
-            "placeId": ""
-          },
-          "donorType": "Individual"
-        },
-        "ngo": {
-          "address": {
-            "formattedAddress": "Banjara Hills, Hyderabad",
-            "addressLine": "Banjara Hills, Hyderabad",
-            "city": "Hyderabad",
-            "state": "Telangana",
-            "pinCode": "",
-            "country": "India",
-            "latitude": 17.385,
-            "longitude": 78.4867,
-            "placeId": ""
-          },
-          "organizationName": "Helping Hands Foundation",
-          "registrationNo": "",
-          "serviceArea": "",
-          "capacity": 100
-        },
-        "beneficiary": {
-          "address": {
-            "formattedAddress": "Benz Circle, Vijayawada",
-            "addressLine": "Benz Circle, Vijayawada",
-            "city": "Vijayawada",
-            "state": "Andhra Pradesh",
-            "pinCode": "",
-            "country": "India",
-            "latitude": 16.5062,
-            "longitude": 80.648,
-            "placeId": ""
-          },
-          "householdSize": 1,
-          "receiverType": "Individual"
-        },
-        "volunteer": {
-          "address": {
-            "formattedAddress": "MG Road, Bengaluru",
-            "addressLine": "MG Road, Bengaluru",
-            "city": "Bengaluru",
-            "state": "Karnataka",
-            "pinCode": "",
-            "country": "India",
-            "latitude": 12.9716,
-            "longitude": 77.5946,
-            "placeId": ""
-          },
-          "vehicleType": "Bike",
-          "availability": "Full-time"
-        }
-      },
-      "locationUpdatedAt": "2026-08-25T16:41:37.984Z",
-      "createdAt": "2026-08-25T16:41:37.989Z",
-      "updatedAt": "2026-08-25T16:41:38.133Z",
-      "__v": 0
-    },
-    {
-      "location": {
-        "type": "Point",
-        "coordinates": [
-          78.4867,
-          17.385
-        ]
-      },
-      "isAdmin": false,
-      "_id": "6a8dc5d580b1ff3aebf6c3a8",
-      "name": "Sangita MultiRole",
-      "email": "single.account.1787676117633@foodbridge.org",
-      "password": "$2a$10$EMHE8zPp1Vog9L3c4snBxOW1IJrTZAuWa.kbAh3P6.Dh.q1uM9ejS",
-      "mobile": "9493356712",
-      "role": "DONOR",
-      "setupCompleted": true,
-      "isActive": true,
-      "verifiedStatus": true,
-      "address": "",
-      "donorAddress": "Gandhipuram, Coimbatore",
-      "ngoAddress": "Banjara Hills, Hyderabad",
-      "receiverAddress": "Benz Circle, Vijayawada",
-      "volunteerAddress": "MG Road, Bengaluru",
-      "formattedAddress": "",
-      "addressLine": "",
-      "city": "",
-      "state": "",
-      "pinCode": "",
-      "country": "India",
-      "latitude": 17.385,
-      "longitude": 78.4867,
-      "placeId": "",
-      "donorType": "Individual",
-      "organizationName": "",
-      "contactPersonName": "",
-      "registrationNo": "",
-      "serviceArea": "",
-      "capacity": 100,
-      "householdSize": 1,
-      "receiverType": "",
-      "vehicleType": "",
-      "availability": "Full-time",
-      "roleProfiles": {
-        "donor": {
-          "address": {
-            "formattedAddress": "Gandhipuram, Coimbatore",
-            "addressLine": "Gandhipuram, Coimbatore",
-            "city": "Coimbatore",
-            "state": "Tamil Nadu",
-            "pinCode": "",
-            "country": "India",
-            "latitude": 11.0168,
-            "longitude": 76.9558,
-            "placeId": ""
-          },
-          "donorType": "Individual"
-        },
-        "ngo": {
-          "address": {
-            "formattedAddress": "Banjara Hills, Hyderabad",
-            "addressLine": "Banjara Hills, Hyderabad",
-            "city": "Hyderabad",
-            "state": "Telangana",
-            "pinCode": "",
-            "country": "India",
-            "latitude": 17.385,
-            "longitude": 78.4867,
-            "placeId": ""
-          },
-          "organizationName": "Helping Hands Foundation",
-          "registrationNo": "",
-          "serviceArea": "",
-          "capacity": 100
-        },
-        "beneficiary": {
-          "address": {
-            "formattedAddress": "Benz Circle, Vijayawada",
-            "addressLine": "Benz Circle, Vijayawada",
-            "city": "Vijayawada",
-            "state": "Andhra Pradesh",
-            "pinCode": "",
-            "country": "India",
-            "latitude": 16.5062,
-            "longitude": 80.648,
-            "placeId": ""
-          },
-          "householdSize": 1,
-          "receiverType": "Individual"
-        },
-        "volunteer": {
-          "address": {
-            "formattedAddress": "MG Road, Bengaluru",
-            "addressLine": "MG Road, Bengaluru",
-            "city": "Bengaluru",
-            "state": "Karnataka",
-            "pinCode": "",
-            "country": "India",
-            "latitude": 12.9716,
-            "longitude": 77.5946,
-            "placeId": ""
-          },
-          "vehicleType": "Bike",
-          "availability": "Full-time"
-        }
-      },
-      "locationUpdatedAt": "2026-08-25T16:41:57.685Z",
-      "createdAt": "2026-08-25T16:41:57.686Z",
-      "updatedAt": "2026-08-25T16:41:57.810Z",
-      "__v": 0
-    },
-    {
-      "location": {
-        "type": "Point",
-        "coordinates": [
-          78.4071,
-          17.4319
-        ]
-      },
-      "isAdmin": false,
-      "_id": "6a8dc5dd80b1ff3aebf6c3b6",
-      "name": "Sangita Donor",
-      "email": "sangita.donor.1787676125826@foodbridge.org",
-      "password": "$2a$10$Q1hO37qSIt/w3tlBR1Dod.8ob5BMfziWJjK36AjNLg6zXfCBVLj16",
+      "_id": "6a8fbd99d97b0d99a6b960c2",
+      "name": "Donor Chennai Test",
+      "email": "donor.chennai.1787805080@foodbridge.org",
+      "password": "$2a$10$HQfr.mbttWVlcWY2WK6vdOF6iv1W0Vozek512uRgrnJ6y3FzBx69e",
       "mobile": "9876543210",
       "role": "DONOR",
+      "isAdmin": false,
+      "adminAccess": false,
       "setupCompleted": true,
       "isActive": true,
       "verifiedStatus": true,
-      "address": "Plot 12, Jubilee Hills, Hyderabad",
-      "donorAddress": "Updated Donor Venue, Gachibowli, Hyderabad",
+      "address": "Jubilee Road, Chennai",
+      "donorAddress": "Jubilee Road, Chennai",
       "ngoAddress": "",
       "receiverAddress": "",
       "volunteerAddress": "",
-      "formattedAddress": "Plot 12, Jubilee Hills, Hyderabad",
-      "addressLine": "Plot 12, Jubilee Hills, Hyderabad",
-      "city": "Hyderabad",
-      "state": "Telangana",
-      "pinCode": "500033",
+      "formattedAddress": "Jubilee Road, Chennai",
+      "addressLine": "Jubilee Road, Chennai",
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "pinCode": "",
       "country": "India",
-      "latitude": 17.4319,
-      "longitude": 78.4071,
+      "latitude": 13.0827,
+      "longitude": 80.2707,
       "placeId": "",
-      "donorType": "Restaurant",
+      "donorType": "Individual",
       "organizationName": "",
       "contactPersonName": "",
       "registrationNo": "",
@@ -597,16 +48,17 @@
       "roleProfiles": {
         "donor": {
           "address": {
-            "formattedAddress": "Updated Donor Venue, Gachibowli, Hyderabad",
-            "addressLine": "Updated Donor Venue, Gachibowli, Hyderabad",
+            "formattedAddress": "",
+            "addressLine": "",
             "city": "",
             "state": "",
             "pinCode": "",
             "country": "India",
-            "latitude": 17.4401,
-            "longitude": 78.3489,
+            "latitude": 17.385,
+            "longitude": 78.4867,
             "placeId": ""
           },
+          "isRegistered": false,
           "donorType": "Individual"
         },
         "ngo": {
@@ -621,6 +73,7 @@
             "longitude": 78.4867,
             "placeId": ""
           },
+          "isRegistered": false,
           "organizationName": "",
           "registrationNo": "",
           "serviceArea": "",
@@ -638,6 +91,7 @@
             "longitude": 78.4867,
             "placeId": ""
           },
+          "isRegistered": false,
           "householdSize": 1,
           "receiverType": "Individual"
         },
@@ -653,51 +107,53 @@
             "longitude": 78.4867,
             "placeId": ""
           },
+          "isRegistered": false,
           "vehicleType": "Bike",
           "availability": "Full-time"
         }
       },
-      "locationUpdatedAt": "2026-08-25T16:42:05.874Z",
-      "createdAt": "2026-08-25T16:42:05.875Z",
-      "updatedAt": "2026-08-25T16:42:06.526Z",
+      "locationUpdatedAt": "2026-08-27T04:31:21.013Z",
+      "createdAt": "2026-08-27T04:31:21.018Z",
+      "updatedAt": "2026-08-27T04:31:21.018Z",
       "__v": 0
     },
     {
       "location": {
         "type": "Point",
         "coordinates": [
-          78.4487,
-          17.4156
+          78.4867,
+          17.385
         ]
       },
-      "isAdmin": false,
-      "_id": "6a8dc5dd80b1ff3aebf6c3b9",
-      "name": "Helping Hands Officer",
-      "email": "helpinghands.ngo.1787676125826@foodbridge.org",
-      "password": "$2a$10$phV/xtqOsFVhi46xWcqj/u03SCbGnH68GiCX7apIbzLfigX.iomIK",
+      "_id": "6a8fbd99d97b0d99a6b960c5",
+      "name": "NGO Hyderabad Test",
+      "email": "ngo.hyderabad.1787805080@foodbridge.org",
+      "password": "$2a$10$vmjp/HznjI3Tdi5hOR9oKuxgd8F5sV50nGuO8MOuo5oYScP/k793m",
       "mobile": "9123456789",
       "role": "NGO",
+      "isAdmin": false,
+      "adminAccess": false,
       "setupCompleted": true,
       "isActive": true,
       "verifiedStatus": true,
-      "address": "Road No 10, Banjara Hills, Hyderabad",
+      "address": "Banjara Hills, Hyderabad",
       "donorAddress": "",
-      "ngoAddress": "Road No 10, Banjara Hills, Hyderabad",
+      "ngoAddress": "Banjara Hills, Hyderabad",
       "receiverAddress": "",
       "volunteerAddress": "",
-      "formattedAddress": "Road No 10, Banjara Hills, Hyderabad",
-      "addressLine": "Road No 10, Banjara Hills, Hyderabad",
+      "formattedAddress": "Banjara Hills, Hyderabad",
+      "addressLine": "Banjara Hills, Hyderabad",
       "city": "Hyderabad",
       "state": "Telangana",
-      "pinCode": "500034",
+      "pinCode": "",
       "country": "India",
-      "latitude": 17.4156,
-      "longitude": 78.4487,
+      "latitude": 17.385,
+      "longitude": 78.4867,
       "placeId": "",
       "donorType": "Individual",
-      "organizationName": "Helping Hands Foundation NGO",
+      "organizationName": "Helping Hands NGO",
       "contactPersonName": "",
-      "registrationNo": "NGO-HYD-2026-88",
+      "registrationNo": "",
       "serviceArea": "",
       "capacity": 100,
       "householdSize": 1,
@@ -717,6 +173,7 @@
             "longitude": 78.4867,
             "placeId": ""
           },
+          "isRegistered": false,
           "donorType": "Individual"
         },
         "ngo": {
@@ -731,6 +188,7 @@
             "longitude": 78.4867,
             "placeId": ""
           },
+          "isRegistered": false,
           "organizationName": "",
           "registrationNo": "",
           "serviceArea": "",
@@ -748,6 +206,7 @@
             "longitude": 78.4867,
             "placeId": ""
           },
+          "isRegistered": false,
           "householdSize": 1,
           "receiverType": "Individual"
         },
@@ -763,46 +222,48 @@
             "longitude": 78.4867,
             "placeId": ""
           },
+          "isRegistered": false,
           "vehicleType": "Bike",
           "availability": "Full-time"
         }
       },
-      "locationUpdatedAt": "2026-08-25T16:42:05.954Z",
-      "createdAt": "2026-08-25T16:42:05.954Z",
-      "updatedAt": "2026-08-25T16:42:05.954Z",
+      "locationUpdatedAt": "2026-08-27T04:31:21.121Z",
+      "createdAt": "2026-08-27T04:31:21.122Z",
+      "updatedAt": "2026-08-27T04:31:21.122Z",
       "__v": 0
     },
     {
       "location": {
         "type": "Point",
         "coordinates": [
-          78.3772,
-          17.4435
+          77.5946,
+          12.9716
         ]
       },
-      "isAdmin": false,
-      "_id": "6a8dc5de80b1ff3aebf6c3bc",
-      "name": "Priya Volunteer",
-      "email": "priya.volunteer.1787676125826@foodbridge.org",
-      "password": "$2a$10$byLskA61nzhT3uk5ixlYUOQUa9SV1w55NrXOMXTk4JI206D3wN.5C",
+      "_id": "6a8fbd99d97b0d99a6b960c8",
+      "name": "Volunteer Bengaluru Test",
+      "email": "volunteer.bengaluru.1787805080@foodbridge.org",
+      "password": "$2a$10$r5R6P2nhqjdghmPdnhah6u/PYAtMHGqXupUhIWzcueS/ih1Tq0WmW",
       "mobile": "9988776655",
       "role": "VOLUNTEER",
+      "isAdmin": false,
+      "adminAccess": false,
       "setupCompleted": true,
       "isActive": true,
       "verifiedStatus": true,
-      "address": "Cyber Towers, Hitech City, Hyderabad",
+      "address": "Cyber Towers, Bengaluru",
       "donorAddress": "",
       "ngoAddress": "",
       "receiverAddress": "",
-      "volunteerAddress": "Cyber Towers, Hitech City, Hyderabad",
-      "formattedAddress": "Cyber Towers, Hitech City, Hyderabad",
-      "addressLine": "Cyber Towers, Hitech City, Hyderabad",
-      "city": "Hyderabad",
-      "state": "Telangana",
-      "pinCode": "500081",
+      "volunteerAddress": "Cyber Towers, Bengaluru",
+      "formattedAddress": "Cyber Towers, Bengaluru",
+      "addressLine": "Cyber Towers, Bengaluru",
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "pinCode": "",
       "country": "India",
-      "latitude": 17.4435,
-      "longitude": 78.3772,
+      "latitude": 12.9716,
+      "longitude": 77.5946,
       "placeId": "",
       "donorType": "Individual",
       "organizationName": "",
@@ -812,7 +273,7 @@
       "capacity": 100,
       "householdSize": 1,
       "receiverType": "",
-      "vehicleType": "Bike",
+      "vehicleType": "",
       "availability": "Full-time",
       "roleProfiles": {
         "donor": {
@@ -827,6 +288,7 @@
             "longitude": 78.4867,
             "placeId": ""
           },
+          "isRegistered": false,
           "donorType": "Individual"
         },
         "ngo": {
@@ -841,6 +303,7 @@
             "longitude": 78.4867,
             "placeId": ""
           },
+          "isRegistered": false,
           "organizationName": "",
           "registrationNo": "",
           "serviceArea": "",
@@ -858,6 +321,7 @@
             "longitude": 78.4867,
             "placeId": ""
           },
+          "isRegistered": false,
           "householdSize": 1,
           "receiverType": "Individual"
         },
@@ -873,46 +337,48 @@
             "longitude": 78.4867,
             "placeId": ""
           },
+          "isRegistered": false,
           "vehicleType": "Bike",
           "availability": "Full-time"
         }
       },
-      "locationUpdatedAt": "2026-08-25T16:42:06.031Z",
-      "createdAt": "2026-08-25T16:42:06.032Z",
-      "updatedAt": "2026-08-25T16:42:06.032Z",
+      "locationUpdatedAt": "2026-08-27T04:31:21.201Z",
+      "createdAt": "2026-08-27T04:31:21.201Z",
+      "updatedAt": "2026-08-27T04:31:21.201Z",
       "__v": 0
     },
     {
       "location": {
         "type": "Point",
         "coordinates": [
-          78.4482,
-          17.4375
+          80.648,
+          16.5062
         ]
       },
-      "isAdmin": false,
-      "_id": "6a8dc5de80b1ff3aebf6c3bf",
-      "name": "Ravi Receiver",
-      "email": "ravi.receiver.1787676125826@foodbridge.org",
-      "password": "$2a$10$3revYdYsbj4tj3nnptIjMOLNtoAxWTWRzgXxodaGFWVi9zO7Hdkgy",
+      "_id": "6a8fbd99d97b0d99a6b960cb",
+      "name": "Beneficiary Vijayawada Test",
+      "email": "beneficiary.vijayawada.1787805080@foodbridge.org",
+      "password": "$2a$10$dsknlfPnNtPDm5L8nzUy9.X9YOFAPd/RcLxgpT1IzOoOTiSYf4Ha6",
       "mobile": "9000112233",
       "role": "RECEIVER",
+      "isAdmin": false,
+      "adminAccess": false,
       "setupCompleted": true,
       "isActive": true,
       "verifiedStatus": true,
-      "address": "Ameerpet Metro Station, Hyderabad",
+      "address": "Ameerpet Metro, Vijayawada",
       "donorAddress": "",
       "ngoAddress": "",
-      "receiverAddress": "Ameerpet Metro Station, Hyderabad",
+      "receiverAddress": "Ameerpet Metro, Vijayawada",
       "volunteerAddress": "",
-      "formattedAddress": "Ameerpet Metro Station, Hyderabad",
-      "addressLine": "Ameerpet Metro Station, Hyderabad",
-      "city": "Hyderabad",
-      "state": "Telangana",
-      "pinCode": "500016",
+      "formattedAddress": "Ameerpet Metro, Vijayawada",
+      "addressLine": "Ameerpet Metro, Vijayawada",
+      "city": "Vijayawada",
+      "state": "Andhra Pradesh",
+      "pinCode": "",
       "country": "India",
-      "latitude": 17.4375,
-      "longitude": 78.4482,
+      "latitude": 16.5062,
+      "longitude": 80.648,
       "placeId": "",
       "donorType": "Individual",
       "organizationName": "",
@@ -920,7 +386,7 @@
       "registrationNo": "",
       "serviceArea": "",
       "capacity": 100,
-      "householdSize": 4,
+      "householdSize": 1,
       "receiverType": "",
       "vehicleType": "",
       "availability": "Full-time",
@@ -937,6 +403,7 @@
             "longitude": 78.4867,
             "placeId": ""
           },
+          "isRegistered": false,
           "donorType": "Individual"
         },
         "ngo": {
@@ -951,6 +418,7 @@
             "longitude": 78.4867,
             "placeId": ""
           },
+          "isRegistered": false,
           "organizationName": "",
           "registrationNo": "",
           "serviceArea": "",
@@ -968,6 +436,7 @@
             "longitude": 78.4867,
             "placeId": ""
           },
+          "isRegistered": false,
           "householdSize": 1,
           "receiverType": "Individual"
         },
@@ -983,46 +452,48 @@
             "longitude": 78.4867,
             "placeId": ""
           },
+          "isRegistered": false,
           "vehicleType": "Bike",
           "availability": "Full-time"
         }
       },
-      "locationUpdatedAt": "2026-08-25T16:42:06.117Z",
-      "createdAt": "2026-08-25T16:42:06.118Z",
-      "updatedAt": "2026-08-25T16:42:06.118Z",
+      "locationUpdatedAt": "2026-08-27T04:31:21.283Z",
+      "createdAt": "2026-08-27T04:31:21.285Z",
+      "updatedAt": "2026-08-27T04:31:21.285Z",
       "__v": 0
     },
     {
       "location": {
         "type": "Point",
         "coordinates": [
-          78.4867,
-          17.385
+          80.2707,
+          13.0827
         ]
       },
-      "isAdmin": false,
-      "_id": "6a8dc65f80b1ff3aebf6c425",
-      "name": "Sangita MultiRole",
-      "email": "single.account.1787676255762@foodbridge.org",
-      "password": "$2a$10$aDGCih2bqQ2gWnIjdxpfzeMk/thCLDrxTgf5eXnoTLnW7z.uH6YTy",
-      "mobile": "9493356712",
+      "_id": "6a8fbdafd97b0d99a6b960cf",
+      "name": "Donor Chennai Test",
+      "email": "donor.chennai.1787805103@foodbridge.org",
+      "password": "$2a$10$MYGsKgaF0VgI6957rYD20e9iyeMn585ku.widbfdfnBIzslkkiRsq",
+      "mobile": "9876543210",
       "role": "DONOR",
+      "isAdmin": false,
+      "adminAccess": false,
       "setupCompleted": true,
       "isActive": true,
       "verifiedStatus": true,
-      "address": "",
-      "donorAddress": "Gandhipuram, Coimbatore",
-      "ngoAddress": "Banjara Hills, Hyderabad",
-      "receiverAddress": "Benz Circle, Vijayawada",
-      "volunteerAddress": "MG Road, Bengaluru",
-      "formattedAddress": "",
-      "addressLine": "",
-      "city": "",
-      "state": "",
+      "address": "Jubilee Road, Chennai",
+      "donorAddress": "Jubilee Road, Chennai",
+      "ngoAddress": "",
+      "receiverAddress": "",
+      "volunteerAddress": "",
+      "formattedAddress": "Jubilee Road, Chennai",
+      "addressLine": "Jubilee Road, Chennai",
+      "city": "Chennai",
+      "state": "Tamil Nadu",
       "pinCode": "",
       "country": "India",
-      "latitude": 17.385,
-      "longitude": 78.4867,
+      "latitude": 13.0827,
+      "longitude": 80.2707,
       "placeId": "",
       "donorType": "Individual",
       "organizationName": "",
@@ -1037,69 +508,73 @@
       "roleProfiles": {
         "donor": {
           "address": {
-            "formattedAddress": "Gandhipuram, Coimbatore",
-            "addressLine": "Gandhipuram, Coimbatore",
-            "city": "Coimbatore",
-            "state": "Tamil Nadu",
-            "pinCode": "",
-            "country": "India",
-            "latitude": 11.0168,
-            "longitude": 76.9558,
-            "placeId": ""
-          },
-          "donorType": "Individual"
-        },
-        "ngo": {
-          "address": {
-            "formattedAddress": "Banjara Hills, Hyderabad",
-            "addressLine": "Banjara Hills, Hyderabad",
-            "city": "Hyderabad",
-            "state": "Telangana",
+            "formattedAddress": "",
+            "addressLine": "",
+            "city": "",
+            "state": "",
             "pinCode": "",
             "country": "India",
             "latitude": 17.385,
             "longitude": 78.4867,
             "placeId": ""
           },
-          "organizationName": "Helping Hands Foundation",
+          "isRegistered": false,
+          "donorType": "Individual"
+        },
+        "ngo": {
+          "address": {
+            "formattedAddress": "",
+            "addressLine": "",
+            "city": "",
+            "state": "",
+            "pinCode": "",
+            "country": "India",
+            "latitude": 17.385,
+            "longitude": 78.4867,
+            "placeId": ""
+          },
+          "isRegistered": false,
+          "organizationName": "",
           "registrationNo": "",
           "serviceArea": "",
           "capacity": 100
         },
         "beneficiary": {
           "address": {
-            "formattedAddress": "Benz Circle, Vijayawada",
-            "addressLine": "Benz Circle, Vijayawada",
-            "city": "Vijayawada",
-            "state": "Andhra Pradesh",
+            "formattedAddress": "",
+            "addressLine": "",
+            "city": "",
+            "state": "",
             "pinCode": "",
             "country": "India",
-            "latitude": 16.5062,
-            "longitude": 80.648,
+            "latitude": 17.385,
+            "longitude": 78.4867,
             "placeId": ""
           },
+          "isRegistered": false,
           "householdSize": 1,
           "receiverType": "Individual"
         },
         "volunteer": {
           "address": {
-            "formattedAddress": "MG Road, Bengaluru",
-            "addressLine": "MG Road, Bengaluru",
-            "city": "Bengaluru",
-            "state": "Karnataka",
+            "formattedAddress": "",
+            "addressLine": "",
+            "city": "",
+            "state": "",
             "pinCode": "",
             "country": "India",
-            "latitude": 12.9716,
-            "longitude": 77.5946,
+            "latitude": 17.385,
+            "longitude": 78.4867,
             "placeId": ""
           },
+          "isRegistered": false,
           "vehicleType": "Bike",
           "availability": "Full-time"
         }
       },
-      "locationUpdatedAt": "2026-08-25T16:44:15.817Z",
-      "createdAt": "2026-08-25T16:44:15.818Z",
-      "updatedAt": "2026-08-25T16:44:15.953Z",
+      "locationUpdatedAt": "2026-08-27T04:31:43.387Z",
+      "createdAt": "2026-08-27T04:31:43.388Z",
+      "updatedAt": "2026-08-27T04:31:43.388Z",
       "__v": 0
     },
     {
@@ -1110,29 +585,145 @@
           17.385
         ]
       },
+      "_id": "6a8fbdafd97b0d99a6b960d2",
+      "name": "NGO Hyderabad Test",
+      "email": "ngo.hyderabad.1787805103@foodbridge.org",
+      "password": "$2a$10$Any4N6Z/WGlnsChDJvYCwO808aE5BHf0ZtUpNLayFEG1RFUSisMI.",
+      "mobile": "9123456789",
+      "role": "NGO",
       "isAdmin": false,
-      "_id": "6a8dcb3d80b1ff3aebf6c50c",
-      "name": "Sangita MultiRole",
-      "email": "single.account.1787677501411@foodbridge.org",
-      "password": "$2a$10$p.pniWv4aK1.qEn1bM6LkuLQsKUpCavrB7XMtYKbtyGDbwpskFEBC",
-      "mobile": "9493356712",
-      "role": "DONOR",
+      "adminAccess": false,
       "setupCompleted": true,
       "isActive": true,
       "verifiedStatus": true,
-      "address": "",
-      "donorAddress": "Gandhipuram, Coimbatore",
+      "address": "Banjara Hills, Hyderabad",
+      "donorAddress": "",
       "ngoAddress": "Banjara Hills, Hyderabad",
-      "receiverAddress": "Benz Circle, Vijayawada",
-      "volunteerAddress": "MG Road, Bengaluru",
-      "formattedAddress": "",
-      "addressLine": "",
-      "city": "",
-      "state": "",
+      "receiverAddress": "",
+      "volunteerAddress": "",
+      "formattedAddress": "Banjara Hills, Hyderabad",
+      "addressLine": "Banjara Hills, Hyderabad",
+      "city": "Hyderabad",
+      "state": "Telangana",
       "pinCode": "",
       "country": "India",
       "latitude": 17.385,
       "longitude": 78.4867,
+      "placeId": "",
+      "donorType": "Individual",
+      "organizationName": "Helping Hands NGO",
+      "contactPersonName": "",
+      "registrationNo": "",
+      "serviceArea": "",
+      "capacity": 100,
+      "householdSize": 1,
+      "receiverType": "",
+      "vehicleType": "",
+      "availability": "Full-time",
+      "roleProfiles": {
+        "donor": {
+          "address": {
+            "formattedAddress": "",
+            "addressLine": "",
+            "city": "",
+            "state": "",
+            "pinCode": "",
+            "country": "India",
+            "latitude": 17.385,
+            "longitude": 78.4867,
+            "placeId": ""
+          },
+          "isRegistered": false,
+          "donorType": "Individual"
+        },
+        "ngo": {
+          "address": {
+            "formattedAddress": "",
+            "addressLine": "",
+            "city": "",
+            "state": "",
+            "pinCode": "",
+            "country": "India",
+            "latitude": 17.385,
+            "longitude": 78.4867,
+            "placeId": ""
+          },
+          "isRegistered": false,
+          "organizationName": "",
+          "registrationNo": "",
+          "serviceArea": "",
+          "capacity": 100
+        },
+        "beneficiary": {
+          "address": {
+            "formattedAddress": "",
+            "addressLine": "",
+            "city": "",
+            "state": "",
+            "pinCode": "",
+            "country": "India",
+            "latitude": 17.385,
+            "longitude": 78.4867,
+            "placeId": ""
+          },
+          "isRegistered": false,
+          "householdSize": 1,
+          "receiverType": "Individual"
+        },
+        "volunteer": {
+          "address": {
+            "formattedAddress": "",
+            "addressLine": "",
+            "city": "",
+            "state": "",
+            "pinCode": "",
+            "country": "India",
+            "latitude": 17.385,
+            "longitude": 78.4867,
+            "placeId": ""
+          },
+          "isRegistered": false,
+          "vehicleType": "Bike",
+          "availability": "Full-time"
+        }
+      },
+      "locationUpdatedAt": "2026-08-27T04:31:43.462Z",
+      "createdAt": "2026-08-27T04:31:43.463Z",
+      "updatedAt": "2026-08-27T08:10:53.661Z",
+      "__v": 0
+    },
+    {
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          77.5946,
+          12.9716
+        ]
+      },
+      "_id": "6a8fbdafd97b0d99a6b960d5",
+      "name": "Volunteer Bengaluru Test",
+      "email": "volunteer.bengaluru.1787805103@foodbridge.org",
+      "password": "$2a$10$rLhb/DFK65Gz8VG1b1Stc.4Cjmu/Aoc/e8haeB5oFil4Dbhc7XCV2",
+      "mobile": "9988776655",
+      "role": "VOLUNTEER",
+      "isAdmin": false,
+      "adminAccess": false,
+      "setupCompleted": true,
+      "isActive": true,
+      "verifiedStatus": true,
+      "address": "Cyber Towers, Bengaluru",
+      "donorAddress": "",
+      "ngoAddress": "",
+      "receiverAddress": "",
+      "volunteerAddress": "Cyber Towers, Bengaluru",
+      "formattedAddress": "Cyber Towers, Bengaluru",
+      "addressLine": "Cyber Towers, Bengaluru",
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "pinCode": "",
+      "country": "India",
+      "latitude": 12.9716,
+      "longitude": 77.5946,
       "placeId": "",
       "donorType": "Individual",
       "organizationName": "",
@@ -1147,69 +738,188 @@
       "roleProfiles": {
         "donor": {
           "address": {
-            "formattedAddress": "Gandhipuram, Coimbatore",
-            "addressLine": "Gandhipuram, Coimbatore",
-            "city": "Coimbatore",
-            "state": "Tamil Nadu",
-            "pinCode": "",
-            "country": "India",
-            "latitude": 11.0168,
-            "longitude": 76.9558,
-            "placeId": ""
-          },
-          "donorType": "Individual"
-        },
-        "ngo": {
-          "address": {
-            "formattedAddress": "Banjara Hills, Hyderabad",
-            "addressLine": "Banjara Hills, Hyderabad",
-            "city": "Hyderabad",
-            "state": "Telangana",
+            "formattedAddress": "",
+            "addressLine": "",
+            "city": "",
+            "state": "",
             "pinCode": "",
             "country": "India",
             "latitude": 17.385,
             "longitude": 78.4867,
             "placeId": ""
           },
-          "organizationName": "Helping Hands Foundation",
+          "isRegistered": false,
+          "donorType": "Individual"
+        },
+        "ngo": {
+          "address": {
+            "formattedAddress": "",
+            "addressLine": "",
+            "city": "",
+            "state": "",
+            "pinCode": "",
+            "country": "India",
+            "latitude": 17.385,
+            "longitude": 78.4867,
+            "placeId": ""
+          },
+          "isRegistered": false,
+          "organizationName": "",
           "registrationNo": "",
           "serviceArea": "",
           "capacity": 100
         },
         "beneficiary": {
           "address": {
-            "formattedAddress": "Benz Circle, Vijayawada",
-            "addressLine": "Benz Circle, Vijayawada",
-            "city": "Vijayawada",
-            "state": "Andhra Pradesh",
+            "formattedAddress": "",
+            "addressLine": "",
+            "city": "",
+            "state": "",
             "pinCode": "",
             "country": "India",
-            "latitude": 16.5062,
-            "longitude": 80.648,
+            "latitude": 17.385,
+            "longitude": 78.4867,
             "placeId": ""
           },
+          "isRegistered": false,
           "householdSize": 1,
           "receiverType": "Individual"
         },
         "volunteer": {
           "address": {
-            "formattedAddress": "MG Road, Bengaluru",
-            "addressLine": "MG Road, Bengaluru",
-            "city": "Bengaluru",
-            "state": "Karnataka",
+            "formattedAddress": "",
+            "addressLine": "",
+            "city": "",
+            "state": "",
             "pinCode": "",
             "country": "India",
-            "latitude": 12.9716,
-            "longitude": 77.5946,
+            "latitude": 17.385,
+            "longitude": 78.4867,
             "placeId": ""
           },
+          "isRegistered": false,
           "vehicleType": "Bike",
           "availability": "Full-time"
         }
       },
-      "locationUpdatedAt": "2026-08-25T17:05:01.458Z",
-      "createdAt": "2026-08-25T17:05:01.459Z",
-      "updatedAt": "2026-08-25T17:05:01.562Z",
+      "locationUpdatedAt": "2026-08-27T04:31:43.542Z",
+      "createdAt": "2026-08-27T04:31:43.543Z",
+      "updatedAt": "2026-08-27T04:31:43.543Z",
+      "__v": 0
+    },
+    {
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          80.648,
+          16.5062
+        ]
+      },
+      "_id": "6a8fbdafd97b0d99a6b960d8",
+      "name": "Beneficiary Vijayawada Test",
+      "email": "beneficiary.vijayawada.1787805103@foodbridge.org",
+      "password": "$2a$10$F/mDijauFkcsH0q4sbWIK.SH.4jzHIv85Lrk4l5w8IIrUYMvrNK2K",
+      "mobile": "9000112233",
+      "role": "RECEIVER",
+      "isAdmin": false,
+      "adminAccess": false,
+      "setupCompleted": true,
+      "isActive": true,
+      "verifiedStatus": true,
+      "address": "Ameerpet Metro, Vijayawada",
+      "donorAddress": "",
+      "ngoAddress": "",
+      "receiverAddress": "Ameerpet Metro, Vijayawada",
+      "volunteerAddress": "",
+      "formattedAddress": "Ameerpet Metro, Vijayawada",
+      "addressLine": "Ameerpet Metro, Vijayawada",
+      "city": "Vijayawada",
+      "state": "Andhra Pradesh",
+      "pinCode": "",
+      "country": "India",
+      "latitude": 16.5062,
+      "longitude": 80.648,
+      "placeId": "",
+      "donorType": "Individual",
+      "organizationName": "",
+      "contactPersonName": "",
+      "registrationNo": "",
+      "serviceArea": "",
+      "capacity": 100,
+      "householdSize": 1,
+      "receiverType": "",
+      "vehicleType": "",
+      "availability": "Full-time",
+      "roleProfiles": {
+        "donor": {
+          "address": {
+            "formattedAddress": "",
+            "addressLine": "",
+            "city": "",
+            "state": "",
+            "pinCode": "",
+            "country": "India",
+            "latitude": 17.385,
+            "longitude": 78.4867,
+            "placeId": ""
+          },
+          "isRegistered": false,
+          "donorType": "Individual"
+        },
+        "ngo": {
+          "address": {
+            "formattedAddress": "",
+            "addressLine": "",
+            "city": "",
+            "state": "",
+            "pinCode": "",
+            "country": "India",
+            "latitude": 17.385,
+            "longitude": 78.4867,
+            "placeId": ""
+          },
+          "isRegistered": false,
+          "organizationName": "",
+          "registrationNo": "",
+          "serviceArea": "",
+          "capacity": 100
+        },
+        "beneficiary": {
+          "address": {
+            "formattedAddress": "",
+            "addressLine": "",
+            "city": "",
+            "state": "",
+            "pinCode": "",
+            "country": "India",
+            "latitude": 17.385,
+            "longitude": 78.4867,
+            "placeId": ""
+          },
+          "isRegistered": false,
+          "householdSize": 1,
+          "receiverType": "Individual"
+        },
+        "volunteer": {
+          "address": {
+            "formattedAddress": "",
+            "addressLine": "",
+            "city": "",
+            "state": "",
+            "pinCode": "",
+            "country": "India",
+            "latitude": 17.385,
+            "longitude": 78.4867,
+            "placeId": ""
+          },
+          "isRegistered": false,
+          "vehicleType": "Bike",
+          "availability": "Full-time"
+        }
+      },
+      "locationUpdatedAt": "2026-08-27T04:31:43.623Z",
+      "createdAt": "2026-08-27T04:31:43.623Z",
+      "updatedAt": "2026-08-27T04:31:43.623Z",
       "__v": 0
     }
   ]

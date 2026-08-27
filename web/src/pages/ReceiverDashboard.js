@@ -73,22 +73,30 @@ function ReceiverDashboard() {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [currentUser]);
 
-  const myRequestedDonations = allDonations.filter(
-    (d) =>
-      (d.receiver_id === uid ||
-        (d.claimedBy?.role === "RECEIVER" && d.claimedBy?.userId === uid) ||
-        d.acceptedByReceiver === currentUser?.name ||
-        d.requests?.some((r) => r.userId === uid && r.userRole === "RECEIVER")) &&
-      d.status !== "COMPLETED"
-  );
+  const uIdStr = (uid || "").toString().trim();
+  const userNameStr = (currentUser?.name || "").trim().toLowerCase();
 
-  const myHistoryDonations = allDonations.filter(
-    (d) =>
-      (d.receiver_id === uid ||
-        (d.claimedBy?.role === "RECEIVER" && d.claimedBy?.userId === uid) ||
-        d.acceptedByReceiver === currentUser?.name) &&
-      d.status === "COMPLETED"
-  );
+  const myRequestedDonations = allDonations.filter((d) => {
+    const isReceiver =
+      (d.receiver_id && d.receiver_id.toString().trim() === uIdStr) ||
+      (d.claimedBy?.userId && d.claimedBy.userId.toString().trim() === uIdStr) ||
+      (d.acceptedByReceiver && d.acceptedByReceiver.trim().toLowerCase() === userNameStr) ||
+      (d.claimedBy?.name && d.claimedBy.name.trim().toLowerCase() === userNameStr) ||
+      d.requests?.some((r) => r.userId && r.userId.toString().trim() === uIdStr);
+
+    return isReceiver && d.status !== "COMPLETED" && d.status !== "CANCELLED";
+  });
+
+  const myHistoryDonations = allDonations.filter((d) => {
+    const isReceiver =
+      (d.receiver_id && d.receiver_id.toString().trim() === uIdStr) ||
+      (d.claimedBy?.userId && d.claimedBy.userId.toString().trim() === uIdStr) ||
+      (d.acceptedByReceiver && d.acceptedByReceiver.trim().toLowerCase() === userNameStr) ||
+      (d.claimedBy?.name && d.claimedBy.name.trim().toLowerCase() === userNameStr) ||
+      d.requests?.some((r) => r.userId && r.userId.toString().trim() === uIdStr);
+
+    return isReceiver && d.status === "COMPLETED";
+  });
 
   const handleOpenRequestModal = (donation) => {
     setSelectedDonation(donation);
@@ -119,11 +127,11 @@ function ReceiverDashboard() {
         alert("Food request submitted successfully!");
         fetchDonations();
       } else {
-        alert(res.message || "Failed to request food.");
+        alert(res.message || "Failed to submit request.");
       }
     } catch (err) {
       setLoading(false);
-      alert("Failed to request food.");
+      alert("Failed to submit request.");
     }
   };
 
@@ -320,6 +328,37 @@ function ReceiverDashboard() {
           })
         )}
       </div>
+
+      {/* Meals Received History Section */}
+      {myHistoryDonations.length > 0 && (
+        <div style={{ ...styles.section, marginTop: "24px" }}>
+          <h3 style={{ ...styles.sectionTitle, color: "#2e7d32" }}>
+            ✅ Meals Received History ({myHistoryDonations.length})
+          </h3>
+
+          {myHistoryDonations.map((item) => {
+            const donId = item.id || item._id;
+            return (
+              <div key={donId} style={{ ...styles.activeCard, borderLeft: "5px solid #2e7d32", backgroundColor: "#f1f8e9" }}>
+                <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", flexWrap: "wrap", gap: "10px" }}>
+                  <div>
+                    <h4 style={{ margin: 0, color: "#2e7d32", fontSize: "16px" }}>{item.food_name || item.foodName}</h4>
+                    <p style={{ margin: "4px 0", fontSize: "13px" }}>
+                      Quantity: <strong>{item.quantity} {item.unit || "Packs"}</strong> • Category: {item.category}
+                    </p>
+                    <p style={{ margin: "4px 0", fontSize: "13px", color: "#333" }}>
+                      👤 Donor: {item.donor_name} | 📍 {item.address}
+                    </p>
+                  </div>
+                  <span style={{ backgroundColor: "#2e7d32", color: "white", padding: "6px 12px", borderRadius: "16px", fontSize: "12px", fontWeight: "bold" }}>
+                    ✓ COMPLETED & RECEIVED
+                  </span>
+                </div>
+              </div>
+            );
+          })}
+        </div>
+      )}
 
       {/* Request Food Modal */}
       {selectedDonation && (

@@ -64,6 +64,8 @@ function NGODashboard() {
   }, [currentUser]);
 
   const uid = currentUser?.id || currentUser?._id;
+  const uIdStr = (uid || "").toString().trim();
+  const userNameStr = (currentUser?.name || "").trim().toLowerCase();
 
   // Filter available donations intended for NGOs or ALL
   const availableDonations = allDonations.filter(
@@ -74,22 +76,28 @@ function NGODashboard() {
       (d.intendedRecipient === "NGO" || d.intendedRecipient === "ALL" || !d.intendedRecipient)
   );
 
-  // Filter donations accepted by this NGO
-  const ngoAcceptedDonations = allDonations.filter(
-    (d) =>
-      (d.ngo_id === uid ||
-        (d.claimedBy?.role === "NGO" && d.claimedBy?.userId === uid) ||
-        d.acceptedByNGO === currentUser?.name) &&
-      d.status !== "COMPLETED"
-  );
+  // Filter donations accepted by this NGO (robust ID & name comparison)
+  const ngoAcceptedDonations = allDonations.filter((d) => {
+    const isNGO =
+      (d.ngo_id && d.ngo_id.toString().trim() === uIdStr) ||
+      (d.claimedBy?.userId && d.claimedBy.userId.toString().trim() === uIdStr) ||
+      (d.acceptedByNGO && d.acceptedByNGO.trim().toLowerCase() === userNameStr) ||
+      (d.claimedBy?.name && d.claimedBy.name.trim().toLowerCase() === userNameStr) ||
+      d.requests?.some((r) => r.userId && r.userId.toString().trim() === uIdStr);
 
-  const completedDeliveries = allDonations.filter(
-    (d) =>
-      (d.ngo_id === uid ||
-        (d.claimedBy?.role === "NGO" && d.claimedBy?.userId === uid) ||
-        d.acceptedByNGO === currentUser?.name) &&
-      d.status === "COMPLETED"
-  );
+    return isNGO && d.status !== "COMPLETED" && d.status !== "CANCELLED";
+  });
+
+  const completedDeliveries = allDonations.filter((d) => {
+    const isNGO =
+      (d.ngo_id && d.ngo_id.toString().trim() === uIdStr) ||
+      (d.claimedBy?.userId && d.claimedBy.userId.toString().trim() === uIdStr) ||
+      (d.acceptedByNGO && d.acceptedByNGO.trim().toLowerCase() === userNameStr) ||
+      (d.claimedBy?.name && d.claimedBy.name.trim().toLowerCase() === userNameStr) ||
+      d.requests?.some((r) => r.userId && r.userId.toString().trim() === uIdStr);
+
+    return isNGO && d.status === "COMPLETED";
+  });
 
   const handleOpenAcceptModal = (donation) => {
     setSelectedDonation(donation);
@@ -152,6 +160,7 @@ function NGODashboard() {
         subtitle="Connecting surplus food to local shelters & communities"
       />
 
+      {/* 3 Main Stat Cards */}
       <div style={styles.statsGrid}>
         <div style={styles.statCard}>
           <h3>{availableDonations.length}</h3>
@@ -297,6 +306,37 @@ function NGODashboard() {
           })
         )}
       </div>
+
+      {/* Completed Deliveries History Section */}
+      {completedDeliveries.length > 0 && (
+        <div style={{ ...styles.section, marginTop: "24px" }}>
+          <h3 style={{ ...styles.sectionTitle, color: "#2e7d32" }}>
+            ✅ {t("completedDeliveries")} History ({completedDeliveries.length})
+          </h3>
+
+          {completedDeliveries.map((item) => {
+            const donId = item.id || item._id;
+            return (
+              <div key={donId} style={{ ...styles.acceptedCard, borderLeft: "5px solid #2e7d32", backgroundColor: "#f1f8e9" }}>
+                <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", flexWrap: "wrap", gap: "10px" }}>
+                  <div>
+                    <h4 style={{ margin: 0, color: "#2e7d32", fontSize: "16px" }}>{item.food_name || item.foodName}</h4>
+                    <p style={{ margin: "4px 0", fontSize: "13px" }}>
+                      Quantity: <strong>{item.quantity} {item.unit || "Packs"}</strong> • Category: {item.category}
+                    </p>
+                    <p style={{ margin: "4px 0", fontSize: "13px", color: "#333" }}>
+                      👤 Donor: {item.donor_name} | 📍 {item.address}
+                    </p>
+                  </div>
+                  <span style={{ backgroundColor: "#2e7d32", color: "white", padding: "6px 12px", borderRadius: "16px", fontSize: "12px", fontWeight: "bold" }}>
+                    ✓ COMPLETED & RECEIVED
+                  </span>
+                </div>
+              </div>
+            );
+          })}
+        </div>
+      )}
 
       {/* Accept Donation Modal */}
       {selectedDonation && (

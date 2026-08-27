@@ -10,6 +10,7 @@ const mongoUri = process.env.MONGODB_URI || 'mongodb://127.0.0.1:27017/sharebite
 const protectedEmail = 'csangita0108@gmail.com';
 
 const emailRegexPatterns = [
+  /.*@foodbridge\.org$/i,
   /single\.account\..*@foodbridge\.org$/i,
   /sangita\.donor\..*@foodbridge\.org$/i,
   /helpinghands\.ngo\..*@foodbridge\.org$/i,
