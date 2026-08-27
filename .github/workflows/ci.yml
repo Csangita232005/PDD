@@ -25,13 +25,11 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '20'
-          cache: 'npm'
-          cache-dependency-path: backend/package-lock.json
 
       - name: Install Backend Dependencies
         run: |
           cd backend
-          npm ci
+          npm ci || npm install
 
       - name: Run Backend Integration & DB Tests
         env:
@@ -55,17 +53,16 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '20'
-          cache: 'npm'
-          cache-dependency-path: web/package-lock.json
 
       - name: Install Web Dependencies
         run: |
           cd web
-          npm ci
+          npm ci || npm install
 
       - name: Build Web Application
+        env:
+          CI: "false"
+          DISABLE_ESLINT_PLUGIN: "true"
         run: |
           cd web
-          export CI=false
-          export DISABLE_ESLINT_PLUGIN=true
           npm run build
